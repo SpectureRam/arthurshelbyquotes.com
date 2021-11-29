@@ -1,0 +1,68 @@
+/* Written in CSS
+      By Specture Ram */
+
+*{background-color: whitesmoke;
+background-image: url('2.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;}
+
+h1{color: whitesmoke;
+text-align: center;
+font-family:courier;
+font-size: 50px;}
+
+ul{list-style-type: none;
+overflow: hidden;
+margin: 35px;
+padding: 0;
+justify-content: center;
+display: flex;}
+
+li{display: inline;
+float: left;}
+
+li a{display: block;
+text-align: center;
+padding: 1px;
+border-width: 10px;
+margin: 30px;
+text-decoration: none;
+color: white;
+font-size: 20px;
+font-weight: 500;
+}
+
+li a:hover{color: black;
+text-decoration: blink;
+
+}
+
+#quotes{font-family: 'Georgia', cursive;
+text-decoration: inherit;
+text-align: center;
+color: slategrey;
+padding: 20px;
+font-size: 20px;}
+
+ion-icon {
+  font-size: 64px;
+  color:#aaaaaa;
+  width: 150%;
+  transition: color 0.3s;
+  padding: 5px;
+  margin: 10px;}
+
+ion-icon:hover{color: #333333;}
+
+#footer{
+position: fixed;     
+text-align: center;    
+bottom: 0px; 
+width: 100%;
+color: white;}
+
+#social {
+display: flex;
+justify-content: center;
+}
